@@ -8,7 +8,9 @@ public class AddressBook {
     }
 
     public void addBuddy(BuddyInfo aBuddy){
-        myBuddies.add(aBuddy);
+        if(aBuddy != null) {
+            myBuddies.add(aBuddy);
+        }
     }
     
     public void removeBuddy(BuddyInfo aBuddy){
@@ -16,6 +18,6 @@ public class AddressBook {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello");
+        System.out.println("Address Book");
     }
 }
