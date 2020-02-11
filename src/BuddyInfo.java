@@ -29,7 +29,7 @@ public class BuddyInfo {
 
         AddressBook myBook = new AddressBook();
         myBook.addBuddy(homer);
-        myBook.removeBuddy(homer);
+        myBook.removeBuddy(0);
 
     }
 }
