@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class AddressBook {
 
+    //I added this comment in github
     private ArrayList<BuddyInfo> myBuddies;
     public AddressBook(){
         myBuddies = new ArrayList<>();
